@@ -2,7 +2,7 @@ function Hero() {
 	return (
 		<>
 			<div>
-				<header className='h-[876px] w-full flex flex-col bg-gradient-to-br from-gradient/90 to-white'>
+				<header className='h-[764px] w-full flex flex-col justify-center items-start bg-gradient-to-br from-gradient/90 to-white'>
 					<div className='w-[1258px] h-[90px] bg-white m-auto mt-[28px] flex flex-row justify-between items-center rounded-[10px]'>
 						<span className='ml-[26px]'>
 							<svg
@@ -101,11 +101,14 @@ function Hero() {
 							Get a Quote
 						</button>
 					</div>
-                <section className="h-[500px] w-full" >
-                    <div>
-                        <p className="font-bold text-[60px] w-[17ch]" >Best Solution For Your <b className="font-bold color-pri">Bussines</b> Startup</p>
-                        <img src="/" alt="" />
+                <section className=" flex h-[500px] w-full justify-center items-center" >
+                    <div className="">
+                        <p className="font-bold text-[60px] w-[17ch]" >Best Solution For Your <b className="font-bold text-primary-0">Bussines</b> Startup</p>
+                        {/* <img className="absolute bottom-[129px]" src="/public/assets/hero/Text BG.png" alt="" /> */}
                     </div>
+					<div>
+						<img className="" src="/public/assets/hero/banner.png" alt="" width={737} height={498}/>
+					</div>
                 </section>
 				</header>
 			</div>
