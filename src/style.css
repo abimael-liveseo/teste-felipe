@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+	@apply text-[60px];
+}
+
+.bodytext {
+	@apply text-[16px];
+}
+
+.buttontext {
+	@apply text-[16px];
+}
+
+.smallcaption {
+	@apply text-[12px];
+}
+
+
+
+.button {
+	@apply w-[254px] h-[58px]  flex items-center justify-around border-r-4 focus:border-r-primary-0 duration-150
+}
+
+.button p {
+	@apply font-bold text-[#777777]  
+}
