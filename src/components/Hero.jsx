@@ -101,15 +101,24 @@ function Hero() {
 							Get a Quote
 						</button>
 					</div>
-                <section className=" flex h-[500px] w-full justify-center items-center" >
-                    <div className="">
-                        <p className="font-bold text-[60px] w-[17ch]" >Best Solution For Your <b className="font-bold text-primary-0">Bussines</b> Startup</p>
-                        {/* <img className="absolute bottom-[129px]" src="/public/assets/hero/Text BG.png" alt="" /> */}
-                    </div>
-					<div>
-						<img className="" src="/public/assets/hero/banner.png" alt="" width={737} height={498}/>
-					</div>
-                </section>
+					<section className=' flex h-[500px] w-full justify-center items-center'>
+						<div className=''>
+							<p className='font-bold text-[60px] w-[17ch]'>
+								Best Solution For Your{" "}
+								<b className='font-bold text-primary-0'>Bussines</b> Startup
+							</p>
+							{/* <img className="absolute bottom-[129px]" src="/public/assets/hero/Text BG.png" alt="" /> */}
+						</div>
+						<div>
+							<img
+								className=''
+								src='/public/assets/hero/banner.png'
+								alt=''
+								width={737}
+								height={498}
+							/>
+						</div>
+					</section>
 				</header>
 			</div>
 		</>
